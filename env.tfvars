@@ -1,7 +1,18 @@
 ### Archivo de propiedades
-display_name_country = ["folder-country-a","folder-country-b"]
-parent = ["organizacion/id"]
+display_name_country = {
+	"folder-country-a" = {
+		display_name = "cl-test",
+		parent =  "organizations/id"
+		name_subfolder = {
+			{
+				display_name = "business_it_test"
+			}
+		}
+	},
+	"folder-country-b"= {
+		display_name = "ar-test",
+		parent  = "organizations/id"
+	}
+}
 
-display_name_business = ["folder-business-a","folder-business-b"]
-
-display_name_environment = ["folder-environment-a","folder-environment-b"]
+google_credential = "../cuenta-servicio/global-it-datalake.json"
